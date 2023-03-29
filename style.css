@@ -1,0 +1,508 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sono', sans-serif;
+    color: white;
+}
+
+.header {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-left a:hover {
+    color: white;
+}
+
+
+.navbar-item-right:hover {
+    border-bottom: 1px solid #fff;
+}
+
+@media (max-width:768px) {
+    .navbar-left {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .navbar-right {
+        text-align: center;
+    }
+
+    .intro {
+        /* margin-top: 50px; */
+    }
+
+    .intro-welcome h1 {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .navbar-right-ul {
+        margin-right: 80px;
+    }
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-left:hover {
+    color: white;
+}
+
+.navbar-left a {
+    font-size: 25px;
+}
+
+.navbar-right {
+    align-items: center;
+}
+
+.navbar-right-ul {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.navbar-item-right {
+    list-style: none;
+
+}
+
+.navbar-link-right {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+/* ---------- BODY ------------- */
+
+.intro {
+    height: 100vh;
+    background: url(/image/workspace-1280538_1280);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.intro-welcome {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+}
+
+.contant-image {
+    background-color: #000;
+    width: 100%;
+    height: 1200px;
+}
+
+.contant-image-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+.contant-image-box img {
+    margin: 0 30px;
+}
+
+.contant-image-image1 {
+    top: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    transition-duration: 2s;
+}
+
+.contant-image-image1:hover {
+    transform: translate(-50px, -50px);
+    transition: 2s;
+}
+
+.contant-image-image2 {
+    top: 20px;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    transition-duration: 2s;
+}
+
+.contant-image-image2:hover {
+    transform: translate(0, -50px);
+    transition: 2s;
+}
+
+.contant-image-image3:hover {
+    transform: translate(50px, -50px);
+    transition: 2s;
+}
+
+.contant-image-image3 {
+    top: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    transition-duration: 2s;
+}
+
+.animation {
+    transform: translateX(-200%);
+    transition: transform 1.7s ease;
+}
+
+.animation.show {
+    transform: translateX(0);
+}
+
+.animation1 {
+    transform: translateX(200%);
+    transition: transform 1.7s ease;
+}
+
+.animation1.show {
+    transform: translateX(0);
+}
+
+.animation2 {
+    transform: translate(-50px, -50px);
+    transition: transform 2s ease;
+}
+
+.animation2.show {
+    transform: translateX(0);
+}
+
+.animation3 {
+    transition: transform 2s ease;
+}
+
+.animation3.show {
+    transform: translate(0px, 100px);
+}
+
+.animation4 {
+    transform: translate(50px, -50px);
+    transition: transform 2s ease;
+}
+
+.animation4.show {
+    transform: translateX(0);
+}
+
+.animation5 {
+    transform: translate(-850px, 0);
+    transition: transform 1s ease;
+    border-right: 1px solid white;
+}
+
+.animation5.show {
+    transform: translateX(0);
+}
+
+.animation6 {
+    transform: translate(850px, 0);
+    transition: transform 1s ease;
+    border-left: 1px solid white;
+}
+
+.animation6.show {
+    transform: translateX(0);
+}
+
+.animation7 {
+    transform: translate(-850px, 0);
+    transition: transform 1.3s ease;
+    border-right: 1px solid white;
+}
+
+.animation7.show {
+    transform: translateX(0);
+}
+
+.animation8 {
+    transform: translate(850px, 0);
+    transition: transform 1.3s ease;
+    border-left: 1px solid white;
+}
+
+.animation8.show {
+    transform: translateX(0);
+}
+
+.animation9 {
+    transform: translate(0, 100px);
+    transition: transform 1s ease;
+}
+
+.animation9.show {
+    transform: translateX(0);
+}
+
+.animation10 {
+    transform: translate(0, 100px);
+    transition: transform 1s ease;
+}
+
+.animation10.show {
+    transform: translateX(0);
+}
+
+.animation11 {
+    transform: translate(0, 100px);
+    transition: transform 1s ease;
+}
+
+.animation11.show {
+    transform: translateX(0);
+}
+
+.animation12 {
+    transform: translate(0, 100px);
+    transition: transform 1s ease;
+}
+
+.animation12.show {
+    transform: translateX(0);
+}
+
+.animation13 {
+    transform: translate(0, 100px);
+    transition: transform 1s ease;
+}
+
+.animation13.show {
+    transform: translateX(0);
+}
+
+.animation14 {
+    transform: translate(0, 100px);
+    transition: transform 1s ease;
+}
+
+.animation14.show {
+    transform: translateX(0);
+}
+
+@media (max-width:768px) {
+    .i1 {
+        display: none;
+    }
+
+    .i3 {
+        display: none;
+    }
+
+    .main-2 {
+        height: 1400px;
+    }
+
+    .animation6 {
+        margin: 25px;
+    }
+
+    .animation8 {
+        margin: 25px;
+    }
+
+    .x1 {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .x2 {
+        display: none;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .i3 {
+        display: none;
+    }
+
+
+    .x1 {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .x2 {
+        display: none;
+    }
+
+
+}
+
+@media (min-width:1200px) and (max-width:1410px) {
+
+
+    .main-3-up {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .x1 {
+        width: 60%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .x2 {
+        display: none;
+    }
+}
+
+.main-2 {
+
+    background-color: #41474c;
+}
+
+.info {
+    background-color: #41474c;
+}
+
+.main-3 {
+    height: 2100px;
+    background-color: #000;
+}
+
+.main-3 .container .card {
+    border-radius: 50px;
+    width: 600px;
+}
+
+.main-3 .container img {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.x2 {
+    padding-top: 140px;
+}
+
+.footer {
+    height: 300px;
+    background-color: #343a40;
+}
+
+.footer h2 {
+    padding-top: 150px;
+}
+
+/* --------------------------------------------------------------- */
+
+.picture__1 {
+    background-image: url("image/pexels-rodrigo-souza-2531709.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.title {
+    height: 100%;
+    letter-spacing: 10px;
+    font-size: 45px;
+    background-color: black;
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.content {
+    background-color: #141313;
+}
+
+.content__1 {
+    text-align: center;
+    height: 250px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.picture__2 {
+    background-image: url("image/pexels-eberhard-grossgasteiger-844297.jpg");
+    height: 570px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content__2 {
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.content h3 {
+    color: white;
+}
+
+
+#map {
+    height: 515px;
+}
+
+.map-contact {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
